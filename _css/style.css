@@ -6,6 +6,9 @@
 nav#menu ul{
     text-transform: uppercase;
     list-style: none;
+    position: absolute;
+    top: 70px;
+    left: 900px;
 }
 
 nav#menu{
@@ -14,6 +17,9 @@ nav#menu{
 
 nav#menu li{
     display: inline-block;
+    background-color: background: rgb(255,25,25);
+    background: linear-gradient(90deg, rgba(255,25,25,1) 0%, rgba(255,123,34,1) 13%, rgba(255,253,51,1) 24%, rgba(75,255,71,1) 36%, rgba(98,91,234,1) 47%, rgba(168,27,180,1) 60%, rgba(255,255,255,1) 75%);
+    padding: 10px;
 }
 
 body{
@@ -24,6 +30,6 @@ background: linear-gradient(90deg, rgba(255,25,25,1) 0%, rgba(255,123,34,1) 13%,
 header{
     background-color: antiquewhite;
     padding-top: 70px;
-    padding-bottom: 60px;
+    padding-bottom: 16px;
     position: relative;
 }
