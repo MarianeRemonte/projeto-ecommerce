@@ -60,3 +60,11 @@ nav#menu li:hover{
 .produtos img{
     max-width: 300px;
 }
+
+.produtos p{
+    color: black;
+}
+
+.precoDesk{
+    font-size: 30px;
+}
